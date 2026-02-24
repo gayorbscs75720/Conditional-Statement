@@ -1,0 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+        int marks = 100;
+        
+        if(marks <= 50) {
+        System.out.println(" Marks is Greater Than : 50");
+        }
+        if(marks != 50){
+        System.out.println("Marks NOt Equal : 50");
+        }
+        if(marks < 50){
+            System.out.println(" Marks is Greater Than : 50");
+        }
+        if(marks == 50){
+            System.out.println(" Marks is Greater Than : 50");
+        }
+        if(marks >= 50){
+            System.out.println( "Marks is Greater Than : 50");
+        }
+    }
+}
