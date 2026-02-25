@@ -1,0 +1,26 @@
+
+class Main {
+    public static void main(String[] args) {
+        int age = 96;
+        if(age >= 0 && age <= 5){
+        System.out.println("Infant");}
+        
+        if(age >= 6 && age <= 12){
+        System.out.println("Child");}
+        
+        if(age >= 13 && age <= 19){
+        System.out.println("Teen age");}
+        
+        if(age >= 20 && age <= 35){
+        System.out.println("Young Adult");}
+        
+        if(age >= 36 && age <= 60){
+        System.out.println("Adult");}
+        
+        if(age >= 61 && age <= 75){
+        System.out.println("Senior Citizen");}
+        
+        if(age > 80){
+        System.out.println("Go to Death");}
+    }
+}
