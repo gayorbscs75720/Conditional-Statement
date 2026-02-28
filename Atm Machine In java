@@ -1,0 +1,55 @@
+class Main {
+    public static void main(String[] args) {
+        boolean cardisvalid = true;
+        int setpin =1234;
+        int amount = 400;
+        if (cardisvalid){
+            if(setpin == 1234){
+                
+            }else {
+                System.out.println("Invalid Pin");
+            }
+            if(amount >= 500 && amount <= 1000){
+                
+        System.out.println("Withdrawal Successfull: " + amount);
+            }
+            if(amount >= 2000 && amount <= 3000){
+                
+        System.out.println("Withdrawal Successfull: " + amount);
+            }
+            if(amount >= 3000 && amount <= 4000){
+                
+        System.out.println("Withdrawal Successfull: " + amount);
+            }
+            if(amount >= 5000 && amount <= 6000){
+                
+        System.out.println("Withdrawal Successfull: " + amount);
+            }
+            if(amount >= 7000 && amount <= 8000){
+                
+        System.out.println("Withdrawal Successfull: " + amount);
+            }
+            if(amount >= 10000 && amount <= 20000){
+                
+        System.out.println("Withdrawal Successfull: " + amount);
+            }
+            if(amount >= 20000 && amount <= 25000){
+                
+        System.out.println("Withdrawal Successfull: " + amount);
+            }
+            if(amount > 25000){
+                
+        System.out.println("Your Card No Limit: " + amount);
+            }
+            
+        
+            else if (amount < 500 ){
+             System.out.println("Insufficient balance Is: " + amount);
+            }
+        }
+        
+        else{
+            System.out.println("Your Card Is Blocked");
+        }
+    }
+}
